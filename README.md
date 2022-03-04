@@ -28,6 +28,12 @@ This repository describes a recommended way of implementing a textual search eng
 ```
 NLTK is used for text pre_processing like tokenisation, lemmatization, POS Tagging, Stemming etc.
 
+## System Architecture
+
+- You can understand the system by the following architecture:
+
+![SystemArchitecture](https://user-images.githubusercontent.com/39568831/156713949-9aa39080-86ff-4bf1-834b-96cb35109c62.png)
+
 
 
 
