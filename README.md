@@ -34,6 +34,16 @@ NLTK is used for text pre_processing like tokenisation, lemmatization, POS Taggi
 
 ![SystemArchitecture](https://user-images.githubusercontent.com/39568831/156713949-9aa39080-86ff-4bf1-834b-96cb35109c62.png)
 
+## Evaluation Results
+
+- This contains the output from the trec_eval script. 
+- For each of the three models:
+    1. VSM
+    2. BM25
+    3. Multinomial Language Model 
+
+- Each output file is for different ranked documents top 10 and 100 respectively. 
+
 
 
 
