@@ -15,18 +15,19 @@ This repository describes a recommended way of implementing a textual search eng
 
 -The project is entirely done in python programming language.
 - The project can be found in the IR_System_KhizerBiyabani.ipynb, it is a python notebook that contains the implemented system.
-- At first you need to load the dataset, using a XML parser, in this case you have to use the import xml.etree.ElementTree python library, using the following command.
+- At first you need to load the dataset, using a XML parser, in this case you have to use the xml.etree.ElementTree python library, using the following command.
 ```bash
   pip install xml
 ```
 - You will need to parse the xml documents in the COLLECTION folder. 
 - Please make sure to add the location of your document and query collection of '.xm' files as shown below:
 ![loadingthe_data](https://user-images.githubusercontent.com/39568831/156712815-20b94730-67f9-4d1e-be7a-6530204e5864.jpg)
-- Also, for pre-processing of the text you may download and install nltk (Natural Language Toolkit)
+- Also, for pre-processing of the text you will have to download and install nltk (Natural Language Toolkit)
 ```bash
   pip install nltk
 ```
-NLTK is used for text pre_processing like tokenisation, lemmatization, POS Tagging, Stemming etc.
+NLTK is used for text pre_processing like tokenisation, lemmatization, POS Tagging, Stemming etc. For more information and installation you can refer to this link. 
+https://www.nltk.org/install.html
 
 ## System Architecture
 
