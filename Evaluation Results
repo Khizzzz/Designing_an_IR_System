@@ -1,0 +1,9 @@
+# Evaluation Results File 
+
+- This contains the output from the trec_eval script. 
+- For each of the three models:
+1. VSM
+2. BM25
+3. Multinomial Language Model 
+
+- Each output file is for different ranked documents top 10 and 100 respectively. 
